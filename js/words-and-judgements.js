@@ -5,15 +5,15 @@ var everythingX = -50;
 var everythingY= -100;
 
 function preload() {
-  cFontRegular = loadFont('Cairo-Regular.ttf');
-  blahText = loadImage('blah-text.png');
-  problemsText = loadImage('problems-text.png');
+  cFontRegular = loadFont('img/Cairo-Regular.ttf');
+  blahText = loadImage('img/blah-text.png');
+  problemsText = loadImage('img/problems-text.png');
 }
 
 function setup() {
-  createCanvas(700, 400);
+  createCanvas(windowWidth, windowHeight);
   textFont(cFontRegular);
-  textSize(20);
+  textSize(40);
   background(255);
 }
 
@@ -24,7 +24,7 @@ function draw() {
   
   text('and you take         your     ...',width/5.5,height/3.5,width/2,height/6);
   
-  text('And stick them onto',width/2.7,height/1.35,width/4,height/4);
+  text('And stick them onto',width/2.6,height/1.35,width/4,height/4);
   //text('everything',width/2.35,height/1.2,width/4,height/3);//
   
   image(blahText,width/6,height/2.5,width/7,height/4);

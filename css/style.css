@@ -117,3 +117,15 @@ canvas {
   left: 80%;
   top: 60%;
 }
+
+#CALL-IT-page-2 {
+  position: fixed;
+  right: 75%;
+  top: 58%;
+}
+
+#dont-conform-page {
+  position: fixed;
+  left: 78%;
+  top: 48%;
+}
