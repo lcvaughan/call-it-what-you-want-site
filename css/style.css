@@ -105,3 +105,15 @@ canvas {
   left: 80%;
   top: 80%;
 }
+
+#nothing-to-prove-page-2 {
+  position: fixed;
+  right: 80%;
+  top: 60%;
+}
+
+#words-and-judgements-page {
+  position: fixed;
+  left: 80%;
+  top: 60%;
+}

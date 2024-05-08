@@ -4,20 +4,20 @@ var cFontBold;
 
 
 function preload() {
-  cFontBold = loadFont('Cairo-ExtraBold.ttf')
+  cFontBold = loadFont('img/Cairo-ExtraBold.ttf')
 }
 
 function setup() {
-  createCanvas(700, 400);
+  createCanvas(windowWidth, windowHeight);
   textAlign(CENTER);
-  textSize(50);
+  textSize(80);
   textFont(cFontBold);
 }
 
 function draw() {
   background('white');
   fill('black');
-  text(words[wordIndex],width/2.2,height/2);
+  text(words[wordIndex],width/2,height/2);
 }
 
 function mousePressed() {
