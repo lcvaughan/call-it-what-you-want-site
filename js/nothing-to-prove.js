@@ -3,16 +3,16 @@ var eyes;
 var orangeFlame; 
 
 function preload() {
-  cairoRegular = loadFont('Cairo-Regular.ttf');
-  eyes = loadImage('swollen-eyes.png');
-  orangeFlame =loadImage('flame.png');
+  cairoRegular = loadFont('img/Cairo-Regular.ttf');
+  eyes = loadImage('img/swollen-eyes.png');
+  orangeFlame =loadImage('img/flame.png');
   
 }
 
 function setup() {
-  createCanvas(700, 400);
+  createCanvas(windowWidth, windowHeight);
   textFont(cairoRegular);
-  textSize(20);
+  textSize(40);
 }
 
 function draw() {
@@ -27,19 +27,16 @@ function draw() {
   image(eyes,width/1.9,height/2.5,width/3,height/6);
   image(orangeFlame,width/4,height/1.4,width/7,height/3);
   noStroke()
-  if(mouseX < 150 && mouseY > -100) {
-    rect(240,20,69,30);
+  if(mouseX < 350 && mouseY > -100) {
+    rect(535,60,100,70);
   }
-  if(mouseX < 250 && mouseY > -100) {
-    rect(369,50,250,200);
+  if(mouseX < 700 && mouseY > -100) {
+    rect(950,50,650,700);
   }
-  if(mouseX < 400 && mouseY > -100) {
-    rect(30,150,300,30);
+  if(mouseX < 1000 && mouseY > -100) {
+    rect(120,390,700,50);
   }
-  if(mouseX < 500 && mouseY > -100) {
-    rect(30,250,150,30);
-  }
-  if(mouseX < 550 && mouseY > -100) {
-    rect(350,290,230,30);
+  if(mouseX < 1300 && mouseY > -100) {
+    rect(120,610,300,60);
   }
 }
