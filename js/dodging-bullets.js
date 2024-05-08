@@ -1,17 +1,17 @@
 var regularFont
-var bullet = {x:10, y:120, speed:3, w:80, h:30};
+var bullet = {x:10, y:305, speed:6, w:180, h:60};
 var currentBulletImage, forwardBulletImage, reverseBulletImage;
 
 function preload() {
-  regularFont = loadFont('Cairo-Regular.ttf');
-  forwardBulletImage = loadImage('bullet.png');
-  reverseBulletImage = loadImage('bullet-reverse.png'); 
+  regularFont = loadFont('img/Cairo-Regular.ttf');
+  forwardBulletImage = loadImage('img/bullet.png');
+  reverseBulletImage = loadImage('img/bullet-reverse.png'); 
 }
 
 function setup() {
-  createCanvas(700, 400);
+  createCanvas(windowWidth, windowHeight);
   textFont(regularFont);
-  textSize(20);
+  textSize(40);
   currentBulletImage = forwardBulletImage
   background('white');
 }

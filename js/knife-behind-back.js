@@ -25,10 +25,10 @@ function draw() {
   noStroke()
   text('We got nothing to lose',width/4,height/5);
   
-  if(mouseX > 250 && mouseY > 0) {
+  if(mouseX > 400 && mouseY > 0) {
     rect(590,160,130,50);
   }
-  if(mouseX < 400 && mouseY > -100) {
+  if(mouseX < 800 && mouseY > -100) {
     rect(1000,480,300,330);
   }
 

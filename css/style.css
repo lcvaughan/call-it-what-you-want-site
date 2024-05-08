@@ -81,3 +81,15 @@ canvas {
   left: 80%;
   bottom: 80%;
 }
+
+#youre-ducking-page-2 {
+  position: fixed; 
+  right: 80%;
+  top: 80%;
+}
+
+#knife-behind-back-page-2{
+  position: fixed;
+  left: 80%;
+  top: 80%;
+}
