@@ -4,9 +4,9 @@ var knife;
 var squareState = 1;
 
 function preload() {
-  cairoReg = loadFont('../img/Cairo-Regular.ttf');
-  whiteCircle = loadImage('../img/white-circle-3.png');
-  knife = loadImage('../img/knife.png');
+  cairoReg = loadFont('img/Cairo-Regular.ttf');
+  whiteCircle = loadImage('img/white-circle-3.png');
+  knife = loadImage('img/knife.png');
 }
 
 function setup() {

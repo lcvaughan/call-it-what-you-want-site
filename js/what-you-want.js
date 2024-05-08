@@ -3,8 +3,8 @@ var flamePerson;
 var mappedXPosition;
 
 function preload() {
-  fontReg = loadFont('../img/Cairo-Regular.ttf');
-  flamePerson = loadImage('../img/ftp-person.png');
+  fontReg = loadFont('img/Cairo-Regular.ttf');
+  flamePerson = loadImage('img/ftp-person.png');
 }
 
 function setup() {

@@ -7,9 +7,9 @@ var squareState = 1;
 //0 means off, 1 means on//
 
 function preload() {
-  regularFont = loadFont('../img/Cairo-Regular.ttf');
-  redpin = loadImage('../img/pin.png');
-  redcircle = loadImage('../img/red-circle.png');
+  regularFont = loadFont('img/Cairo-Regular.ttf');
+  redpin = loadImage('img/pin.png');
+  redcircle = loadImage('img/red-circle.png');
 }
 
 function setup() {

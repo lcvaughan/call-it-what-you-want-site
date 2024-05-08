@@ -5,8 +5,8 @@ var squareState = 0;
 var mappedBackgroundColor;
 
 function preload() {
-   cairoFont = loadFont('../img/Cairo-Regular.ttf');
-   circledepth = loadImage('../img/circle-2.png');
+   cairoFont = loadFont('img/Cairo-Regular.ttf');
+   circledepth = loadImage('img/circle-2.png');
 }
 
 function setup() {

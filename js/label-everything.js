@@ -5,9 +5,9 @@ var label;
 var mappedYPosition;
 
 function preload() {
-  regFont = loadFont('../img/Cairo-Regular.ttf');
-  lock = loadImage('../img/lock.png');
-  label = loadImage('../img/label.png');
+  regFont = loadFont('img/Cairo-Regular.ttf');
+  lock = loadImage('img/lock.png');
+  label = loadImage('img/label.png');
 }
 
 function setup() {
