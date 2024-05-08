@@ -96,6 +96,12 @@ canvas {
 
 #knife-behind-back-page-2 {
   position: fixed;
-  right: 80%;
-  bottom: 80%;
+  right: 90%;
+  bottom: 60%;
+}
+
+#CALL-IT-page {
+  position: fixed;
+  left: 80%;
+  top: 80%;
 }
