@@ -78,8 +78,8 @@ canvas {
 
 #nothing-to-prove-page {
   position: fixed;
-  left: 80%;
-  bottom: 80%;
+  right: 80%;
+  top: 80%;
 }
 
 #youre-ducking-page-2 {
