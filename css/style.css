@@ -141,3 +141,15 @@ canvas {
   left: 90%;
   top: 40%;
 }
+
+#dont-conform-page-2 {
+  position: fixed;
+  right: 80%;
+  top: 80%;
+}
+
+#rat-race-ladder-page {
+  position: fixed;
+  left: 80%;
+  top: 80%;
+}

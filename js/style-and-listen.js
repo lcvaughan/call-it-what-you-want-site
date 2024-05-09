@@ -6,17 +6,17 @@ var flameImg;
 let cursorImg;
 
 function preload() {
-  funText = loadFont('Cairo-Regular.ttf');
-  cursorImg = loadImage('mic.png');
-  hand1 = loadImage('ftp-hand-1.png');
-  hand2 = loadImage('ftp-hand-2.png');
-  flameImg =loadImage('flame.png');
+  funText = loadFont('img/Cairo-Regular.ttf');
+  cursorImg = loadImage('img/mic.png');
+  hand1 = loadImage('img/ftp-hand-1.png');
+  hand2 = loadImage('img/ftp-hand-2.png');
+  flameImg =loadImage('img/flame.png');
 }
 
 function setup() {
-  createCanvas(700, 400);
+  createCanvas(windowWidth, windowHeight);
   textFont(funText);
-  textSize(20);
+  textSize(40);
   noCursor();
 }
 
