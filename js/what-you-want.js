@@ -20,6 +20,7 @@ function draw() {
   text('I said just,',width/2,height/2);
   text('call it what you want',width/1.55,height/2);
   text('CALL iT WHAT YOU WANT',width/8,height/1.3);
+  text('by      Foster The People',width/7.8,height/1.15);
   image(flamePerson,mappedXPosition,height/2.5,width/7,height/4);
   mappedXPosition = map(mouseX,0,width,50,650);
   noStroke()
@@ -27,6 +28,6 @@ function draw() {
     rect(900,450,650,50);
   }
   if(mouseX < 1700 && mouseY > -10) {
-    rect(220,700,450,50);
+    rect(220,700,450,200);
   }
 }
