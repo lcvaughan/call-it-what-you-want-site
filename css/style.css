@@ -153,3 +153,15 @@ canvas {
   left: 80%;
   top: 80%;
 }
+
+#style-and-listen-page-2 {
+  position: fixed;
+  right: 90%;
+  top: 80%;
+}
+
+#splash-page-2 {
+  position: fixed;
+  left: 90%;
+  top: 30%;
+}
