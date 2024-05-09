@@ -23,7 +23,7 @@ function draw() {
   text('Well i’m just gonna do', width/5, height/6);
   text('What I gotta do', width/10, height/2);
   text('Cause I gotta keep myself \nfree', width/1.5, height/1.5);
-  image(redcircle, width/20, height/1.8, width/3, height/5);
+  image(redcircle, width/3.5, height/1.8, width/3, height/5);
   
   text('here',redpinX,redpinY);
   image(redpin, redpinX+15, redpinY-260, width/9, height/4);
