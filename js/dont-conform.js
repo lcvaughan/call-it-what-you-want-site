@@ -5,17 +5,17 @@ var noConform;
 var mappedXposition;
 
 function preload() {
-  cFont = loadFont('Cairo-Regular.ttf');
-  flameImage = loadImage('flame.png');
-  ftpPerson = loadImage('ftp-person.png');
-  noConform = loadImage('no-conform.png');
+  cFont = loadFont('img/Cairo-Regular.ttf');
+  flameImage = loadImage('img/flame.png');
+  ftpPerson = loadImage('img/ftp-person.png');
+  noConform = loadImage('img/no-conform.png');
   
 }
 
 function setup() {
-  createCanvas(700, 400);
+  createCanvas(windowWidth, windowHeight);
   textFont(cFont);
-  textSize(20);
+  textSize(40);
 }
 
 function draw() {
@@ -25,14 +25,14 @@ function draw() {
   text('Then you run',width/2.5,height/2);
   text('the other way',mappedXposition,height/1.3);
   image(flameImage, width/8, height/1.4, width/8, height/3);
-  image(ftpPerson,width/2.4,height/1.9,width/9,height/5);
+  image(ftpPerson,mappedXposition,height/1.9,width/9,height/5);
   image(noConform,width/4,height/5,width/15,height/9);
-  mappedXposition = map(mouseX,0,width,160,450);
+  mappedXposition = map(mouseX,0,width,400,1200);
   noStroke()
-  if(mouseX < 150 && mouseY > -100) {
-    rect(100,50,375,100);
+  if(mouseX < 500 && mouseY > -100) {
+    rect(180,90,900,250);
   }
-  if(mouseX <250 && mouseY > -10) {
-    rect(150,180,300,140);
+  if(mouseX <800 && mouseY > -10) {
+    rect(725,400,300,100);
   }
 }

@@ -120,12 +120,24 @@ canvas {
 
 #CALL-IT-page-2 {
   position: fixed;
-  right: 75%;
-  top: 58%;
+  right: 98%;
+  bottom: 96%;
 }
 
 #dont-conform-page {
   position: fixed;
-  left: 78%;
-  top: 48%;
+  right: 98%;
+  top: 96%;
+}
+
+#words-and-judgements-page-2 {
+  position: fixed;
+  right: 90%;
+  top: 20%
+}
+
+#style-and-listen-page {
+  position: fixed;
+  left: 90%;
+  top: 40%;
 }

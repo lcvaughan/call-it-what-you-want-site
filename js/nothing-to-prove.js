@@ -17,7 +17,7 @@ function setup() {
 
 function draw() {
   background(255);
-  text('We got nothing to prove', width/8,height/9);
+  text('We got nothing to prove', width/7,height/9);
   text('Your social guides', width/1.8, height/6);
   text('give you swollen eyes', width/1.8, height/3);
   text('But what I got',width/15, height/2.3);
@@ -28,7 +28,7 @@ function draw() {
   image(orangeFlame,width/4,height/1.4,width/7,height/3);
   noStroke()
   if(mouseX < 350 && mouseY > -100) {
-    rect(535,60,100,70);
+    rect(575,60,100,70);
   }
   if(mouseX < 700 && mouseY > -100) {
     rect(950,50,650,700);
